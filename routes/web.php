@@ -10,7 +10,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Temporário para gerar o token. 
+//Rota para geraro token. 
 Route::get('/csrf-token', function () {
     return response()->json(['csrf_token' => csrf_token()]);
 });
