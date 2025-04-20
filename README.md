@@ -255,7 +255,7 @@ Exemplo de Resposta:
 }
 ```
 
-##🧪 Testes Automatizados
+## 🧪 Testes Automatizados
 
 O projeto conta com testes automatizados de ponta a ponta, localizados em:
 
@@ -264,6 +264,7 @@ tests/Feature/LoanSimulationTest.php`
 
 
 ✅ Executar os testes
+
 ```bash
  php artisan test
 ```
