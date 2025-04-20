@@ -255,6 +255,24 @@ Exemplo de Resposta:
 }
 ```
 
+##🧪 Testes Automatizados
+
+O projeto conta com testes automatizados de ponta a ponta, localizados em:
+
+
+tests/Feature/LoanSimulationTest.php`
+
+
+✅ Executar os testes
+```bash
+ php artisan test
+```
+# ou
+
+./vendor/bin/phpunit
+
+Os testes cobrem cenários válidos, inválidos e mínimos da rota /simulate.
+
 ---
 
 ## 🧪 Testes com Postman
